@@ -1,0 +1,67 @@
+// Placez vos combinaisons de touches dans ce fichier pour remplacer les valeurs par défaut
+[
+    {
+        "key": "alt+cmd+[Comma]",
+        "command": "editor.action.indentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+alt+cmd+[Minus]",
+        "command": "-editor.action.indentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+cmd+[KeyM]",
+        "command": "editor.action.outdentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+alt+cmd+5",
+        "command": "-editor.action.outdentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "editor.action.selectToBracket"
+    },
+    {
+        "key": "ctrl+shift+space",
+        "command": "expand-selection-to-scope.expand"
+    },
+    {
+        "key": "cmd+shift+space",
+        "command": "editor.action.smartSelect.grow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "-editor.action.smartSelect.grow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+a",
+        "command": "wwm.aligncode"
+    },
+    // Toggle between terminal and editor focus"
+    { "key": "ctrl+`", "command": "workbench.action.terminal.focus"},
+    { "key": "ctrl+`", "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus"},
+    // dupliquer : https://github.com/lafe/ContextualDuplicate
+    { "key": "ctrl+d", "command": "lafe.duplicateCode" },
+    { "key": "ctrl+k d", "command": "-lafe.duplicateCode" },
+    // UPPERCASE - lowercase
+    { "key": "ctrl+u", "command": "editor.action.transformToUppercase" },
+    {
+        "key": "ctrl+l",
+        "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "shift+alt+d",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "f12",
+        "command": "-editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    }
+]
