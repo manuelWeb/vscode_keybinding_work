@@ -14,7 +14,7 @@
   "editor.snippetSuggestions": "top",
   "editor.tabSize": 2,
   "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true,
+  "files.trimTrailingWhitespace": false,
   // Hide Open Editors pane
   "explorer.openEditors.visible": 0,
   // Disable Preview when using Quick Open
@@ -99,5 +99,7 @@
       "replace": "$1\n$2\n$3"
     }
   ],
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  // Ruby
+  "ruby.intellisense": true
 }

@@ -63,5 +63,27 @@
         "key": "f12",
         "command": "-editor.action.goToDeclaration",
         "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "cmd+[Period]",
+        "command": "editor.emmet.action.toggleComment"
+    },
+    {
+        "key": "shift+cmd+a",
+        "command": "editor.emmet.action.balanceOut"
+    },
+    {
+        "key": "shift+cmd+[Comma]",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+[Period]",
+        "command": "-editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "f12",
+        "command": "editor.action.goToTypeDefinition"
     }
 ]
