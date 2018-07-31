@@ -73,7 +73,7 @@
         "command": "editor.emmet.action.balanceOut"
     },
     {
-        "key": "shift+cmd+[Comma]",
+        "key": "cmd+[Period]",
         "command": "editor.action.commentLine",
         "when": "editorTextFocus && !editorReadonly"
     },

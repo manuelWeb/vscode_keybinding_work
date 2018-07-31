@@ -44,7 +44,9 @@
   "javascript.validate.enable": false,
   // Emmet
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "slim": "css"
   },
   "emmet.triggerExpansionOnTab": true,
   // TypeScript Hero (auto-imports & import sorting)
