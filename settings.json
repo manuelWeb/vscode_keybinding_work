@@ -99,6 +99,11 @@
       "name": "cutUrlToSrcNoHttp.json",
       "find": "(.+?/.+?/)(.+?)/([0-9]{7})\\.html",
       "replace": "$1\n$2\n$3"
+    },
+    {
+      "name": "cutCompletUrlToSrcNoHttp.json",
+      "find": "https.+.[fr|befr|bevl|nl|de|uk]\/(.+?\/.+?\/)(.+?)/([0-9]{7}).html",
+      "replace": "$1\n$2\n$3"
     }
   ],
   "window.zoomLevel": 0,

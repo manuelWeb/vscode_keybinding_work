@@ -85,5 +85,17 @@
     {
         "key": "f12",
         "command": "editor.action.goToTypeDefinition"
+    },
+    // replaced by Quick and Simple Text Selection
+    {
+        "key": "cmd+k",
+        "command": "-workbench.action.terminal.clear",
+        "when": "terminalFocus"
     }
+    // ,
+    // {
+    //     "key": "ctrl+k",
+    //     "command": "-deleteAllRight",
+    //     "when": "textInputFocus && !editorReadonly"
+    // }
 ]
