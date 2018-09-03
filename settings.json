@@ -48,6 +48,11 @@
     "vue-html": "html",
     "slim": "css"
   },
+  "emmet.syntaxProfiles": {
+    "html": {
+        "self_closing_tag": true
+    }
+  },
   "emmet.triggerExpansionOnTab": true,
   // TypeScript Hero (auto-imports & import sorting)
   "typescriptHero.resolver.disableImportRemovalOnOrganize": true,
